@@ -8,20 +8,20 @@ const audioSource = document.getElementById('audioSource');
 // Dummy data for songs based on mood
 const songsData = {
   happy: [
-    { title: 'Flute 1', url: 'music/happy-song-1.mp3' },
-    { title: 'Flute 2', url: 'music/happy-song-2.mp3' }
+    { title: 'Flute 1', url: 'happy-song-1.mp3' },
+    { title: 'Flute 2', url: 'happy-song-2.mp3' }
   ],
   sad: [
-    { title: 'Flute 1', url: 'music/sad-song-1.mp3' },
-    { title: 'Flute 2', url: 'music/sad-song-2.mp3' }
+    { title: 'Flute 1', url: 'sad-song-1.mp3' },
+    { title: 'Flute 2', url: 'sad-song-2.mp3' }
   ],
   relaxed: [
-    { title: 'Relaxed Flute ', url: 'music/relaxed-song-1.mp3' },
+    { title: 'Relaxed Flute ', url: 'relaxed-song-1.mp3' },
   
   ],
   energetic: [
-    { title: 'Energetic Flute', url: 'music/energetic-song-1.mp3' },
-    { title: 'Energetic Flute ', url: 'music/energetic-song-2.mp3' }
+    { title: 'Energetic Flute', url: 'energetic-song-1.mp3' },
+    { title: 'Energetic Flute ', url: 'energetic-song-2.mp3' }
   ]
 };
 
